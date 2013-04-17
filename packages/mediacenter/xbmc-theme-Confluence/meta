@@ -19,7 +19,10 @@
 ################################################################################
 
 PKG_NAME="xbmc-theme-Confluence"
-PKG_VERSION="12.0.3"
+PKG_VERSION="12.1.6"
+if [ "$XBMC" = "master" ]; then
+  PKG_VERSION="74fa128"
+fi
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
